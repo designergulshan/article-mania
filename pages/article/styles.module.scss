@@ -1,0 +1,17 @@
+.title {
+  @apply text-5xl font-bold mb-4;
+}
+
+.subTitle {
+  @apply text-2xl text-gray-400 mb-6;
+}
+
+.articleContainer {
+  p {
+    @apply leading-10 text-xl text-gray-800 my-6;
+  }
+
+  a {
+    @apply underline text-green-600 hover:no-underline hover:text-green-900;
+  }
+}
